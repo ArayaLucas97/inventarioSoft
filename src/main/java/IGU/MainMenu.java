@@ -32,6 +32,11 @@ public class MainMenu extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(0, 204, 204));
 
         btnInventario.setText("Inventario");
+        btnInventario.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnInventarioActionPerformed(evt);
+            }
+        });
 
         btnNuevo.setText("Nuevo Prod");
         btnNuevo.addActionListener(new java.awt.event.ActionListener() {
@@ -95,6 +100,10 @@ public class MainMenu extends javax.swing.JFrame {
     private void btnNuevoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNuevoActionPerformed
        mostrarPanel(new nuevoProducto());
     }//GEN-LAST:event_btnNuevoActionPerformed
+
+    private void btnInventarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnInventarioActionPerformed
+        mostrarPanel(new inventario());
+    }//GEN-LAST:event_btnInventarioActionPerformed
 
     public static void main(String args[]) {
   
