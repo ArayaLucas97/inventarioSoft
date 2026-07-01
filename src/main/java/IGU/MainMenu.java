@@ -108,7 +108,7 @@ public class MainMenu extends javax.swing.JFrame {
     }//GEN-LAST:event_btnNuevoActionPerformed
 
     private void btnInventarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnInventarioActionPerformed
-        mostrarPanel(new inventario());
+        //mostrarPanel(new inventario());
     }//GEN-LAST:event_btnInventarioActionPerformed
 
     public static void main(String args[]) {
